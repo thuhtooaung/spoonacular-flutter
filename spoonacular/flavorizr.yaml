@@ -1,0 +1,24 @@
+app:
+  android:
+    flavorDimensions: "flavor-type"
+
+flavors:
+  dev:
+    app:
+      name: "Spoonacular Dev"
+
+    android:
+      applicationId: "com.thuhtooaung.spoonacular.dev"
+
+    ios:
+      bundleId: "com.thuhtooaung.spoonacular.dev"
+
+  prod:
+    app:
+      name: "Spoonacular"
+
+    android:
+      applicationId: "com.thuhtooaung.spoonacular"
+
+    ios:
+      bundleId: "com.thuhtooaung.spoonacular"
